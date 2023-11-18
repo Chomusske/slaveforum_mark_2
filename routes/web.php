@@ -24,6 +24,18 @@ Route::get('/reg', function () {
 Route::get('/change_profile', function () {
     return view('SlavePages.change_profile');
 });
+Route::get('/branch', function () {
+    return view('SlavePages.branch');
+});
+Route::get('/branches', function () {
+    return view('SlavePages.branches');
+});
+Route::get('/other_profile', function () {
+    return view('SlavePages.other_profile');
+});
+Route::get('/users', function () {
+    return view('SlavePages.users');
+});
 Route::get('/', function () {
     return view('SlavePages.index');
 });

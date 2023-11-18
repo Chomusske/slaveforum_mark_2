@@ -19,6 +19,7 @@
 	<body>
 		<script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
 		<script src="{{ asset('js/burger.js') }}"></script>
+		<!-- Поменять классы на соответвующие странице - чужой профиль! -->
 		<div class="wrapper">
 			<div class="content">
                 <header class="header">
@@ -48,10 +49,10 @@
 									<div class="my_profile_info">
 										<div class="my_profile_name">Имя</div>
 										<div class="my_profile_role">Роль</div>
-										<a href="./create_thread.html"><button class="my_profile_create_theme">Создать тему</button></a>
+										
 										
 									</div>
-									<a href="./change_profile.html"><button class="my_profile_chamge_profile">Изменить профиль</button></a>
+									
                             </div>
 							
 						</div>
@@ -64,10 +65,6 @@
 										<div class="my_profile_columns_name">Товарищи</div>
 										<div class="my_profile_columns_item item">
 											<div class="my_profile_item_row">
-												<div class="my_profile_item_col">
-													<div class="my_profile_item_name">Имя</div>
-													<div class="my_profile_item_role">Роль</div>
-												</div>
 												<div class="my_profile_item_col">
 													<div class="my_profile_item_name">Имя</div>
 													<div class="my_profile_item_role">Роль</div>
@@ -114,10 +111,7 @@
 													<div class="my_profile_item_name">Имя</div>
 													<div class="my_profile_item_role">Комментарий</div>
 												</div>
-												<div class="my_profile_item_col">
-													<div class="my_profile_item_name">Имя</div>
-													<div class="my_profile_item_role">Комментарий</div>
-												</div>
+												
 											
 											
 											</div>
